@@ -52,6 +52,7 @@ const App = () => {
           value={title}
           className="input"
           placeholder="Enter Title"
+          required
           onChange={(e) => {
             setTitle(e.target.value);
           }}
@@ -66,6 +67,7 @@ const App = () => {
           className="input"
           id="des"
           value={des}
+          required
           onChange={(e) => {
             setDes(e.target.value);
           }}
