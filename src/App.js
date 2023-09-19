@@ -26,7 +26,7 @@ const App = () => {
       return (
         <li className="list-item">
           <h2>
-            {" "}
+            
             <span className="count">{i + 1 + "." + "   "}</span>
             {t.title}
           </h2>
